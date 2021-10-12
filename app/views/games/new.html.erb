@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Your current score is <%= :score %></h1>
+  <h2>New Game</h2>
+
+  <div class="letter-wrapper">
+    <% @letters.each do |letter| %>
+    <div class="letter"><%= letter %></div>
+    <% end %>
+  </div>
+
+
+</div>
