@@ -8,5 +8,6 @@ class GamesController < ApplicationController
   end
 
   def score
+    puts score
   end
 end
